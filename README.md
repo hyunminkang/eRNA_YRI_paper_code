@@ -84,4 +84,4 @@ You may modify the variables to apply the scripts to other samples
 
 To cite our repository, please cite the following information:
 
-  Kristjánsdóttir K, Kwak Y, Tippens ND, Lis JT, Kang HM, Kwak H. Population-scale study of eRNA transcription reveals bipartite functional enhancer architecture. bioRxiv. 2018 Jan 1:426908.
+  Kristjánsdóttir K, Kwak Y, Tippens ND, Lis JT, Kang HM, Kwak H. Population-scale study of eRNA transcription reveals bipartite functional enhancer architecture. bioRxiv. 426908.
