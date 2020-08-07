@@ -1,0 +1,5 @@
+These 9 shell scripts together remove reads with mappability bias and assess allele specific mapping. These scripts require bedtools, bowtie, tabix, R, and samtools on a Linux system. This has been tested with bedtools v2.28.0, bowtie v1.2.2, tabix v1.7-2, R v3.6.1, and samtools v1.9 on Ubuntu 18.04.3 LTS and requires no non-standard hardware. To run, these files must be placed with appropriate directories and have the variable file paths modified as needed in each script.
+
+Our demo includes the two fastq files for GM19099. To run this demo data, the file paths should be changed to the directory containing the fastq files, and a hg19 fasta file and bowtie index are needed. The script is run by executing the make.sh script in the sh folder, and is timed at 52m9.843s. The expected read count output is included in the results folder for comparison.
+
+In order to run this software on our data, all lists must be created for all sample file names, the scripts should be run with our TSS list, and all fastq files for the sample should be downloaded and put in an appropriate directory.

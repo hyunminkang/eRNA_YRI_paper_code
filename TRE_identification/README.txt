@@ -1,0 +1,5 @@
+This tool runs using bedtools and R on Linux machines. It has been tested with bedtools v2.28.0, R v3.6.1, and Ubuntu 18.04.3.LTS. No non-standard hardware is required, and to set up the software the variables in the code need to be set up for your specific file positions.
+
+To run the demo for this software, all of the needed code and files are already in place. The user just needs to execute the script in the sh folder in the terminal. The demo is timed at 38m24.851s, producing 88915 TREs with a 0.5 RPM cut off corresponding to a p value of 0.00603 and an FDR of 0.01488. The tables of information are in the demo_results folder. Due to the use of a random background distribution to calculate the p-value, demo results may vary slightly each time the code is run. 
+
+To run this on our data, complete bedgraph plus and minus files must be generated from our data. This script was run on our data both before and after variant sensitive alignment.

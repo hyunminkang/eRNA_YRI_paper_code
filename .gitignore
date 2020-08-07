@@ -1,0 +1,5 @@
+TRE_identification/data/procap.pl.sorted.bg.gz
+TRE_identification/data/procap.mn.sorted.bg.gz
+variant_alignment/genotype/genotype.imputed.vcf.gz
+**/.DS_Store
+**/wget-log
